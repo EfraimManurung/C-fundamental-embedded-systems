@@ -1,0 +1,19 @@
+# ninja log v5
+0	308	7286199786800535	C:/efraim-learning-embedded-systems/1-how-computers-count/Debug/Obj/main.o	eba25732af5835e
+311	422	7286199788170048	C:/efraim-learning-embedded-systems/1-how-computers-count/Debug/Exe/project.out	77bfb1db7d7ec884
+1	46	7286200797346159	C:/efraim-learning-embedded-systems/1-how-computers-count/Debug/Obj/main.o	eba25732af5835e
+48	81	7286200797704575	C:/efraim-learning-embedded-systems/1-how-computers-count/Debug/Exe/project.out	77bfb1db7d7ec884
+1	66	7286201088062305	C:/efraim-learning-embedded-systems/1-how-computers-count/Debug/Obj/main.o	eba25732af5835e
+68	199	7286201088792787	C:/efraim-learning-embedded-systems/1-how-computers-count/Debug/Exe/project.out	77bfb1db7d7ec884
+1	172	7286202804655767	C:/efraim-learning-embedded-systems/1-how-computers-count/Debug/Obj/main.o	eba25732af5835e
+174	209	7286202805345266	C:/efraim-learning-embedded-systems/1-how-computers-count/Debug/Exe/project.out	77bfb1db7d7ec884
+1	45	7286203124122216	C:/efraim-learning-embedded-systems/1-how-computers-count/Debug/Obj/main.o	eba25732af5835e
+46	81	7286203124473172	C:/efraim-learning-embedded-systems/1-how-computers-count/Debug/Exe/project.out	77bfb1db7d7ec884
+2	238	7286213978749280	C:/efraim-learning-embedded-systems/1-how-computers-count/Debug/Obj/main.o	eba25732af5835e
+242	280	7286213979599121	C:/efraim-learning-embedded-systems/1-how-computers-count/Debug/Exe/project.out	77bfb1db7d7ec884
+1	254	7286830854047788	C:/efraim-learning-embedded-systems/2-change-flow-of-control/Debug/Obj/main.o	7da7adeab11d5e53
+255	356	7286830855081634	C:/efraim-learning-embedded-systems/2-change-flow-of-control/Debug/Exe/project.out	dd605b84b76b2d3d
+21	83	7286832322202633	C:/efraim-learning-embedded-systems/2-change-flow-of-control/Debug/Obj/main.o	7da7adeab11d5e53
+85	125	7286832322628487	C:/efraim-learning-embedded-systems/2-change-flow-of-control/Debug/Exe/project.out	dd605b84b76b2d3d
+1	136	7286837438290116	C:/efraim-learning-embedded-systems/2-change-flow-of-control/Debug/Obj/main.o	7da7adeab11d5e53
+137	167	7286837438674508	C:/efraim-learning-embedded-systems/2-change-flow-of-control/Debug/Exe/project.out	dd605b84b76b2d3d

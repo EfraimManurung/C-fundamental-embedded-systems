@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>C:\efraim-learning-embedded-systems\4-how-to-control-the-world-outside\Debug\Exe\project.out</Path>
+            <Output>
+                <Path>C:\efraim-learning-embedded-systems\4-how-to-control-the-world-outside\Debug\List\project.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>C:\efraim-learning-embedded-systems\2-change-flow-of-control\Debug\Exe\project.out</Path>
+            <Output>
+                <Path>C:\efraim-learning-embedded-systems\2-change-flow-of-control\Debug\List\project.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>C:\efraim-learning-embedded-systems\3-variables-and-pointers\Debug\Exe\project.out</Path>
+            <Output>
+                <Path>C:\efraim-learning-embedded-systems\3-variables-and-pointers\Debug\List\project.map</Path>
+            </Output>
+        </Parent>
+        <Parent>
+            <Path>C:\efraim-learning-embedded-systems\1-how-computers-count\Debug\Exe\project.out</Path>
+            <Output>
+                <Path>C:\efraim-learning-embedded-systems\1-how-computers-count\Debug\List\project.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

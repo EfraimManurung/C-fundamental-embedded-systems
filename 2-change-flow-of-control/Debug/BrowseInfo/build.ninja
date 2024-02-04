@@ -1,0 +1,41 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.2\common\bin\XclFileGenerator.exe" $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$out
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.2\common\bin\SourceIndexer.exe" $flags
+  depfile = $out.dep
+  deps = gcc
+  description = IAR_NEW_TOOL+++INDEXER+++$out
+
+rule MAKEBROWSE
+  command = "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.2\common\bin\makeBrowseData.exe" $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out
+
+rule PDBLINK
+  command = "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.2\common\bin\PbdLink.exe" $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out
+
+
+
+#Build steps
+build C$:\efraim-learning-embedded-systems\2-change-flow-of-control\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+    flags = C$:\efraim-learning-embedded-systems\2-change-flow-of-control\main.c -o C$:\efraim-learning-embedded-systems\2-change-flow-of-control\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.2\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros C$:\efraim-learning-embedded-systems\2-change-flow-of-control\Debug\BrowseInfo\main.tmp
+    rspfile_name = C$:\efraim-learning-embedded-systems\2-change-flow-of-control\Debug\BrowseInfo\main.xcl.rsp
+    xclcommand = -source_file C$:\efraim-learning-embedded-systems\2-change-flow-of-control\main.c -xcl_file C$:\efraim-learning-embedded-systems\2-change-flow-of-control\Debug\BrowseInfo\main.xcl -macro_file C$:\efraim-learning-embedded-systems\2-change-flow-of-control\Debug\BrowseInfo\main.tmp -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.2\arm\bin\iccarm.exe"
+
+build C$:\efraim-learning-embedded-systems\2-change-flow-of-control\Debug\BrowseInfo\main.pbi : INDEXER C$:\efraim-learning-embedded-systems\2-change-flow-of-control\Debug\BrowseInfo\main.xcl | C$:\efraim-learning-embedded-systems\2-change-flow-of-control\main.c
+    flags = -out=C$:\efraim-learning-embedded-systems\2-change-flow-of-control\Debug\BrowseInfo\main.pbi -f C$:\efraim-learning-embedded-systems\2-change-flow-of-control\Debug\BrowseInfo\main.xcl
+
+build C$:\efraim-learning-embedded-systems\2-change-flow-of-control\Debug\BrowseInfo\project.pbw : MAKEBROWSE C$:\efraim-learning-embedded-systems\2-change-flow-of-control\Debug\BrowseInfo\project.pbd
+    flags = C$:\efraim-learning-embedded-systems\2-change-flow-of-control\Debug\BrowseInfo\project.pbd -output C$:\efraim-learning-embedded-systems\2-change-flow-of-control\Debug\BrowseInfo\project.pbw
+
+build C$:\efraim-learning-embedded-systems\2-change-flow-of-control\Debug\BrowseInfo\project.pbd : PDBLINK C$:\efraim-learning-embedded-systems\2-change-flow-of-control\Debug\BrowseInfo\main.pbi
+    flags = -M C$:\efraim-learning-embedded-systems\2-change-flow-of-control\Debug\BrowseInfo\project.pbd C$:\efraim-learning-embedded-systems\2-change-flow-of-control\Debug\BrowseInfo\main.pbi
+

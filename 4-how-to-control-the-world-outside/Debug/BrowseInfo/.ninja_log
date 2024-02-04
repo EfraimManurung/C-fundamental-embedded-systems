@@ -1,0 +1,26 @@
+# ninja log v5
+1	92	7286198870000000	C:/efraim-learning-embedded-systems/1-how-computers-count/Debug/BrowseInfo/main.xcl	a67d333c8aeee10b
+38	201	7287001524782136	C:/efraim-learning-embedded-systems/3-variables-and-pointers/Debug/BrowseInfo/project.pbw	b4a27d46f9b7503f
+0	45	7286213980914292	C:/efraim-learning-embedded-systems/1-how-computers-count/Debug/BrowseInfo/main.pbi	37c4f1884f42084f
+47	59	7286213981087177	C:/efraim-learning-embedded-systems/1-how-computers-count/Debug/BrowseInfo/project.pbd	553ca817a09f0798
+62	279	7286213983156939	C:/efraim-learning-embedded-systems/1-how-computers-count/Debug/BrowseInfo/project.pbw	c010002db6a53d9f
+1	151	7286830560000000	C:/efraim-learning-embedded-systems/2-change-flow-of-control/Debug/BrowseInfo/main.xcl	6339bb8dccf173ad
+187	406	7286996691318037	C:/efraim-learning-embedded-systems/2-change-flow-of-control/Debug/BrowseInfo/project.pbw	23e0f16466e205aa
+1	174	7286996689092539	C:/efraim-learning-embedded-systems/2-change-flow-of-control/Debug/BrowseInfo/main.pbi	d1fb77697afd67cd
+176	186	7286996689224586	C:/efraim-learning-embedded-systems/2-change-flow-of-control/Debug/BrowseInfo/project.pbd	b0db45296d802d26
+0	114	7286996980000000	C:/efraim-learning-embedded-systems/3-variables-and-pointers/Debug/BrowseInfo/main.xcl	86d264f7195ba6c6
+0	29	7287001523180984	C:/efraim-learning-embedded-systems/3-variables-and-pointers/Debug/BrowseInfo/main.pbi	98c3b8d0c609e275
+30	37	7287001523283699	C:/efraim-learning-embedded-systems/3-variables-and-pointers/Debug/BrowseInfo/project.pbd	7c31c79a07005c35
+1	129	7287853440000000	C:/efraim-learning-embedded-systems/4-how-to-control-the-world-outside/Debug/BrowseInfo/main.xcl	39119c72b7c7bf1c
+0	147	7287866265091200	C:/efraim-learning-embedded-systems/4-how-to-control-the-world-outside/Debug/BrowseInfo/main.pbi	f5f9f9b2d495a822
+151	160	7287866265223037	C:/efraim-learning-embedded-systems/4-how-to-control-the-world-outside/Debug/BrowseInfo/project.pbd	8cdd934df353c170
+164	351	7287866267004294	C:/efraim-learning-embedded-systems/4-how-to-control-the-world-outside/Debug/BrowseInfo/project.pbw	658b65f2ae4160ce
+0	50	7287868334062682	C:/efraim-learning-embedded-systems/4-how-to-control-the-world-outside/Debug/BrowseInfo/main.pbi	f5f9f9b2d495a822
+53	63	7287868334223185	C:/efraim-learning-embedded-systems/4-how-to-control-the-world-outside/Debug/BrowseInfo/project.pbd	8cdd934df353c170
+65	254	7287868336015104	C:/efraim-learning-embedded-systems/4-how-to-control-the-world-outside/Debug/BrowseInfo/project.pbw	658b65f2ae4160ce
+0	32	7287868991335657	C:/efraim-learning-embedded-systems/4-how-to-control-the-world-outside/Debug/BrowseInfo/main.pbi	f5f9f9b2d495a822
+36	44	7287868991484271	C:/efraim-learning-embedded-systems/4-how-to-control-the-world-outside/Debug/BrowseInfo/project.pbd	8cdd934df353c170
+47	240	7287868993131695	C:/efraim-learning-embedded-systems/4-how-to-control-the-world-outside/Debug/BrowseInfo/project.pbw	658b65f2ae4160ce
+0	33	7287911175358779	C:/efraim-learning-embedded-systems/4-how-to-control-the-world-outside/Debug/BrowseInfo/main.pbi	f5f9f9b2d495a822
+34	45	7287911175481394	C:/efraim-learning-embedded-systems/4-how-to-control-the-world-outside/Debug/BrowseInfo/project.pbd	8cdd934df353c170
+45	250	7287911177432188	C:/efraim-learning-embedded-systems/4-how-to-control-the-world-outside/Debug/BrowseInfo/project.pbw	658b65f2ae4160ce
